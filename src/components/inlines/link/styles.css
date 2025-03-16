@@ -1,0 +1,16 @@
+/**
+ **
+ * implements common markdown with color token, color token format would be like this var(--color-text-primary)
+ */
+
+a.Link {
+    color: var(--color-link-primary);
+}
+
+a.Link:hover {
+    color: var(--color-link-hover);
+}
+
+a.Link:visited {
+    color: var(--color-link-visited);
+}
